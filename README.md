@@ -1,0 +1,1 @@
+# KoSentenceBERT_V2
