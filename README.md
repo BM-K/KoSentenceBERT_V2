@@ -4,7 +4,7 @@
 ## Model Architecture 
 <img src= "https://user-images.githubusercontent.com/55969260/97127194-4b33c680-177c-11eb-9ff7-b2c3c233434d.png"> <br>
 NLI 모델 학습은 [그림 1] 구조를 따른다. 서로 다른 두 문장 Sentence A와 Sentence B가 BERT 임베딩 후 Pooling을 거쳐 u와 v 벡터로 나오게 된다. u와 v 벡터
-사이의 거리를 나타내는 벡터인 |u-v|와의 결합과 더불어 두 문장 임베딩 사이의 Attention이 추가된 벡터 u*와 v* 결합이 더해진다. u*와 v*의 계산은 'Attention is all you need'에서 제시된 Multi-head Attention  방법과 유사하게 진행된다. : <br>
+사이의 거리를 나타내는 벡터인 |u-v|와의 결합과 더불어 두 문장 임베딩 사이의 Attention이 추가된 벡터 u* 와 v* 결합이 더해진다. u* 와 v* 의 계산은 'Attention is all you need'에서 제시된 Multi-head Attention  방법과 유사하게 진행된다. : <br>
 <img src= "https://user-images.githubusercontent.com/55969260/97126995-b4ffa080-177b-11eb-8a0a-c2ac48cd52b6.png"> <br>
 u*와 v*를 나머지와 결합하여 최종적으로 (u, v, |u-v|, u*, v*) 벡터를 생성한다. 
 
