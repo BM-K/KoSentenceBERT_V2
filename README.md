@@ -12,4 +12,6 @@ u* 와 v* 를 나머지와 결합하여 최종적으로 (u, v, |u-v|, u*, v*) �
 <img src = "https://user-images.githubusercontent.com/55969260/99868013-062b7480-2c02-11eb-84cf-c7e0bded50fb.png"> <br>
 
 ## Downstream Tasks Demo
-<img src = "https://user-images.githubusercontent.com/55969260/97133748-5b54a180-178e-11eb-8c80-04291456d561.gif"> <br>
+<img src = "https://user-images.githubusercontent.com/55969260/99897723-73610780-2cdf-11eb-9b71-3d31a309a53a.gif"> <br>
+<img src = "https://user-images.githubusercontent.com/55969260/99897743-94295d00-2cdf-11eb-9b16-d6fec66e43d0.gif"> <br>
+<img src = "https://user-images.githubusercontent.com/55969260/99897764-a73c2d00-2cdf-11eb-8bcf-0235d1fda0f7.gif"> <br>
